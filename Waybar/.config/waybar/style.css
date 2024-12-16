@@ -1,0 +1,68 @@
+@import url("./colors.css");
+
+#custom-os-button {
+    font-size: 16pt;
+    padding: 0pt 12pt 0pt 6pt;
+}
+
+#custom-power-button {
+    font-size: 12pt;
+}
+
+#window {
+    padding: 0pt 0pt 0pt 20pt;
+}
+
+window#waybar {
+    opacity: 0.9;
+    background: @background-darker;
+    color: @foreground;
+    border-bottom: 2px solid @background;
+}
+
+#workspaces {
+    padding: 0px 0px 0px 2pt;
+    margin: 0px 0px 0px 0px;
+}
+
+#workspaces button {
+    background: @background;
+    color: @foreground;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    border: 0px;
+    margin: 8pt -4pt 8pt -4pt;
+    min-width: 0px;
+    min-height: 0px;
+    border-radius: 50%;
+}
+
+#workspaces button:hover {
+    box-shadow: inherit;
+    text-shadow: inherit;
+}
+
+#workspaces button.active {
+    color: @purple;
+}
+
+#workspaces button.urgent {
+    color: @red;
+}
+
+#taskbar button.active {
+    color: @selection;
+}
+
+#clock {
+    background: @background;
+}
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: FiraCode Nerd Font;
+    font-size: 8pt;
+    padding: 0px 6pt 0px 0pt;
+    margin: 0px 0pt 0px 0pt;
+}

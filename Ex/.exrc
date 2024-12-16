@@ -1,0 +1,9 @@
+set number
+set shiftwidth=4
+set tabstop=4
+set showmode
+set autoindent
+set ignorecase
+set list
+set magic
+set showmatch
